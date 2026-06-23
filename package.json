@@ -1,20 +1,20 @@
 {
-  "name": "coderly",
-  "version": "1.0.0",
+  "name": "Coderly",
+  "version": "2.1.0",
   "type": "module",
-  "main": "coderly.js",
-  "dependencies": {
-    "@google/genai": "latest",
-    "@heyputer/puter.js": "^2.5.4",
-    "chalk": "^5.6.2",
-    "inquirer": "^9.3.8",
-    "openai": "^6.44.0"
+  "description": "Autonomous Terminal AI Agent for Coding",
+  "main": "index.js",
+  "bin": {
+    "coderly": "./index.js"
   },
-  "description": "",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node index.js"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC"
+  "dependencies": {
+    "chalk": "^5.3.0",
+    "inquirer": "^9.2.22"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
 }
